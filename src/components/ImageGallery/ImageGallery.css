@@ -1,0 +1,29 @@
+ul, li {
+list-style: none;
+}
+ 
+.gallery {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 52px;
+    padding-bottom: 16px;
+}
+
+.gallery .photo-card {
+    position: relative;
+    width: 360px;
+    height: 100%;
+    margin: 8px;
+}
+
+.gallery .photo-card:hover .imgBox {
+    transform: scale(1.03);
+}
+
+.gallery .photo-card:hover .info {
+    transform: scale(1.03);
+}
+
