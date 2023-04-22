@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect } from 'react';
 import style from './Modal.module.css';
 
 export const Modal = ({ largeImageURL, onClose }) => {
