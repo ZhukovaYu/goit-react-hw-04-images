@@ -32,7 +32,7 @@ const App = () => {
     setQuery(query);
     setImages([]);
     setPage(1);
-    setModalImage('');
+    setLargeImageURL("");
     setShowBtn(false);
   };
 
